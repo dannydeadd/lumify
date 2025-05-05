@@ -130,9 +130,9 @@ export default function Home() {
                   <span className="text-[10px] text-gray-500 font-normal mx-1">by</span>
                   {/* Author avatar placeholder */}
                   <span className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-black mr-1"></span>
-                  {/* Artist name with animated underline */}
-                  <span className="relative flex items-center mr-1">
-                    <span className="font-bold text-black text-lg md:text-xl whitespace-nowrap underline-anim-parent relative">
+                  {/* Artist name with animated underline, PRO outside */}
+                  <span className="flex items-center mr-1">
+                    <span className="relative font-bold text-black text-lg md:text-xl whitespace-nowrap underline-anim-parent">
                       {item.author}
                       <span className="absolute left-0 -bottom-0.5 w-full h-[2px] bg-gray-400 overflow-hidden underline-anim">
                         <span className="block h-full w-0 group-hover:w-full transition-all duration-700 bg-black"></span>
