@@ -105,7 +105,7 @@ export default function Home() {
                 author: 'tote',
                 pro: true,
               },
-            ].map((item, idx) => (
+            ].map((item) => (
               <div
                 key={item.title}
                 className="flex flex-col items-center group"

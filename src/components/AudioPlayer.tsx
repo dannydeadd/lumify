@@ -6,10 +6,10 @@ interface AudioPlayerProps {
   onAudioData?: (data: Float32Array) => void;
 }
 
-const AudioPlayer: React.FC<AudioPlayerProps> = ({ onAudioData }) => {
+const AudioPlayer: React.FC<AudioPlayerProps> = ({  }) => {
   const [isPlaying, setIsPlaying] = useState(false);
-  const [currentTime, setCurrentTime] = useState(0);
-  const [duration, setDuration] = useState(0);
+  const [] = useState(0);
+  const [setDuration] = useState(0);
   const audioRef = useRef<HTMLAudioElement>(null);
   const audioContextRef = useRef<AudioContext | null>(null);
   const analyserRef = useRef<AnalyserNode | null>(null);
